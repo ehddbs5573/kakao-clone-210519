@@ -1,0 +1,10 @@
+body{
+    font-family: 'Teko', sans-serif;
+}
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.status-bar__column:first-child span{
+    margin-right: 5px;
+}
