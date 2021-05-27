@@ -1,0 +1,26 @@
+.friends-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.friends-display span{
+    margin-left: 15px;
+}
+
+.friends-display__notification{
+    color: rgb(213, 213, 213);
+}
+
+.friends-display__text{
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.fa-chevron-right{
+    color: rgb(213, 213, 213);
+}
+

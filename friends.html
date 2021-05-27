@@ -26,17 +26,42 @@
         <nav class="nav">
             <ul class="nav__ul">
                 <li class="nav__li"><a class="nav__a" href="friends.html"><i class="fas fa-user-friends fa-2x"></i></a></li>
-                <li class="nav__li"><a class="nav__a" href="chat.html">
+                <li class="nav__li nav__li--chat"><a class="nav__a" href="chat.html">
                     <span class="nav__chat__notification">1</span>
                     <i class="far fa-comment fa-2x"></i></a>
                 </li>
                 <li class="nav__li"><a class="nav__a" href="search.html"><i class="fas fa-search fa-2x"></i></a></li>
-                <li class="nav__li">
+                <li class="nav__li nav__li--find">
                     <span class="nav__find__notification">.</span>
                     <a class="nav__a" href="find.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>            
                 </li>
             </ul>
         </nav>
+
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Friends</h1>
+            <div class="screen-header__icons">
+                <span class="screen-header__icons--search"><i class="fas fa-search fa-lg"></i></span>
+                <span class="screen-header__icons--music"><i class="fas fa-music fa-lg"></i></span>
+                <span class="screen-header__icons--cog" ><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+
+        <!--
+            <a id="friends-display-link">
+                <i class="fas fa-info-circle"></i>
+                Friends Name's Display
+            </a>
+        -->
+        <a class="friends-display">
+            <span class="friends-display__notification"><i class="fas fa-info-circle"></i></span>
+            <span class="friends-display__text">Friends Name's Display</span>
+            <span><i class="fas fa-chevron-right"></i></span>
+        </a>
+
+        
+    
     
         <script src="https://kit.fontawesome.com/f0be26917b.js" crossorigin="anonymous"></script>
     </body>
