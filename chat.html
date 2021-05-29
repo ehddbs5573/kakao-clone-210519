@@ -1,1 +1,71 @@
-this is chat page
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chats - Kokoa clone</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a class="nav__a" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+                <li class="nav__li nav__li--chat">
+                    <a class="nav__a" href="chat.html">
+                    <span class="nav__chat__notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i></i></a>
+                </li>
+                <li class="nav__li"><a class="nav__a" href="search.html"><i class="fas fa-search fa-2x"></i></a></li>
+                <li class="nav__li nav__li--find">
+                    <span class="nav__find__notification">.</span>
+                    <a class="nav__a" href="find.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>            
+                </li>
+            </ul>
+        </nav>
+
+
+        <header class="screen-header  screen-header-chat">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+                <span class="screen-header__icons--search"><i class="fas fa-search fa-lg"></i></span>
+                <span class="screen-header__icons--chat"><i class="far fa-comment-dots fa-lg"></i></span>
+                <span class="screen-header__icons--music"><i class="fas fa-music fa-lg"></i></span>
+                <span class="screen-header__icons--cog" ><i class="fas fa-cog fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="user-component chat__user-component">
+                <div class="user-component__column">
+                    <img class="user-component__img user-component__img__xl" src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/growthi-1621497537.jpg"/>
+                    <div class="user-component__title">
+                        <div class="user-component__name">Pink Bean</div>
+                        <p><div class="chat-screen__user-component__subtitle">please check My Kokoa Account Info</div></p>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div class="chat-screen__user-component__time">21:32</div>
+                    <span class="chat-screen__user-component__notification badge">1</span>
+                </div>
+            </div> 
+        </main>
+            
+        <script src="https://kit.fontawesome.com/f0be26917b.js" crossorigin="anonymous"></script>
+    </body>
+</html>

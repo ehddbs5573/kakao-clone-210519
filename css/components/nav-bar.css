@@ -20,15 +20,6 @@
     border-top: 1px solid rgba(0,0,0,0.2);
 }
 .nav__chat__notification{
-    background-color: tomato;
-    display: block;
-    height: 26px;
-    width: 26px;
-    border-radius: 13px;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;   
     left: 19px;
     bottom: 19px;

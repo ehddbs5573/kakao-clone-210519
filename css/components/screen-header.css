@@ -13,3 +13,6 @@
 .screen-header__icons--music{
     margin: 0 20px;
 }
+.screen-header__icons--chat{
+    margin-left: 20px;
+}

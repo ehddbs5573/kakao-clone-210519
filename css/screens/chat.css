@@ -1,0 +1,28 @@
+.screen-header-chat{
+    margin-bottom: 40px;
+}
+.chat-screen__user-component__subtitle{
+    margin-top: 13px;
+}
+
+.user-component__subtitle{
+    margin-top: 14px;
+    font-size: 17px;
+    opacity: 0.7;
+}
+.chat__user-component{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-screen__user-component__notification{
+    margin-top: 10px;
+    position: relative;
+    right: -11px;
+}
+.chat-screen__user-component__time{
+    color: rgba(0, 0, 0, 0.5);
+}
+.user-component__column:last-child{
+    display: flex;
+    flex-direction: column;
+}
