@@ -82,3 +82,25 @@
 .find-screen__open-chat__column__pinktext{
     color: var(--pink);
 }
+
+.find-screen__open-chat__column__big-img__heart{
+    display: block;
+    width: 50px;
+    height: 20px;
+    padding: 2px;
+    color: white;
+    background-color: lightslategray;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-screen__open-chat__column__big-img__space{
+    position: relative;
+}
+.fa-heart{
+    margin-right: 5px;
+}
