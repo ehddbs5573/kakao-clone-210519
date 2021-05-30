@@ -10,6 +10,16 @@
     height: 70px;
     width: 70px;
 }
+
+.user-component__img__kokoa{
+    border: 1px solid var(--yellow);
+    margin-right: var(--basic--margin);
+    border-radius: 25px;
+    height: 70px;
+    width: 70px;
+}
+
+
 .user-component__name{
     font-size: 23px;
     font-weight: 500;
@@ -20,7 +30,7 @@
     opacity: 0.7;
 }*/
 .user-component__img__small{
-    border: 1px solid var(--pink);
+    border: 1px solid var(--yellow);
     margin-right: var(--basic--margin);
     border-radius: 25px;
     height: 60px;

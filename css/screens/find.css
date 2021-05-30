@@ -1,0 +1,84 @@
+.find__screen-header__icons--search{
+    margin-right: 20px;
+}
+.find-screen-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.find-screen-icons__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    color: rgba(0,0,0,0.8);
+}
+.find-screen-icons__column__text{
+    margin-top: 25px;
+}
+.find-screen-icons__column__text-address-book{
+    position: relative;
+    right:-6px;
+}
+.find-screen__recommended-friend{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+.find-screen__recommended-friend span{
+    color: rgba(0,0,0,0.5);
+}
+.find-screen__recommended-friend span:first-child{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.find-screen__recommended-friend span:last-child{
+    margin-top: 85px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.find-screen__open-chat{
+    margin-top: 90px;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+.find-screen__open-chat__column:first-child{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.5);
+}
+.find-screen__open-chat__column__member-img{
+    height: 15px;
+    width: 15px;
+}
+
+.find-screen__open-chat__column__big-img{
+    height: 75px;
+    width: 85px;
+    margin-top: 5px;
+
+}
+.find-screen__open-chat__column__hashtag{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.find-screen__open-chat__column:nth-child(2){
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-screen__open-chat__column__greytext{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.find-screen__open-chat__column__bigtext{
+    font-size: 19px;
+}
+
+.find-screen__open-chat__column__pinktext{
+    color: var(--pink);
+}
