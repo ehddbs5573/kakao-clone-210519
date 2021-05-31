@@ -30,7 +30,7 @@
 
 .friend-screen__channel{
     margin-top: 20px;
-    border-top: 1px solid rgb(213, 213, 213);
+    border-top: var(--main-border);
 }
 
 .friend-screen__channel__column:first-child{

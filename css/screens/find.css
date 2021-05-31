@@ -23,7 +23,7 @@
 .find-screen__recommended-friend{
     display: flex;
     flex-direction: column;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: var(--main-border);
 }
 .find-screen__recommended-friend span{
     color: rgba(0,0,0,0.5);
@@ -41,7 +41,7 @@
 }
 .find-screen__open-chat{
     margin-top: 90px;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: var(--main-border);
 }
 .find-screen__open-chat__column:first-child{
     margin-top: 15px;

@@ -36,3 +36,11 @@
     height: 60px;
     width: 60px;
 }
+
+.user-component__img__nomad-coder{
+    border: 1px solid white;
+    margin-right: var(--basic--margin);
+    border-radius: 25px;
+    height: 70px;
+    width: 70px;
+}
