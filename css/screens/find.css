@@ -34,13 +34,13 @@
     font-weight: 500;
 }
 .find-screen__recommended-friend span:last-child{
-    margin-top: 85px;
+    margin-top: 100px;
     text-align: center;
     font-size: 17px;
     font-weight: 500;
 }
 .find-screen__open-chat{
-    margin-top: 90px;
+    margin-top: 100px;
     border-top: var(--main-border);
 }
 .find-screen__open-chat__column:first-child{
@@ -52,6 +52,7 @@
 .find-screen__open-chat__column__member-img{
     height: 15px;
     width: 15px;
+    border-radius: 50%;
 }
 
 .find-screen__open-chat__column__big-img{
@@ -103,4 +104,18 @@
 }
 .fa-heart{
     margin-right: 5px;
+}
+.find-screen__open-chat__column__text{
+    opacity: 0.5;
+}
+
+.find-screen__open-chat__column__bigtext{
+    margin-bottom: 5px;
+}
+
+.find-screen__open-chat__column__hastag{
+    margin-bottom: 5px;
+}
+.find-screen__open-chat__column__member{
+    font-size: 14px;
 }
