@@ -1,0 +1,59 @@
+.more-screen__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.more-screen__icons__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+
+}
+.more-screen__icons:last-child{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.white-icon{
+  opacity: 0;
+}
+
+.more-screen__icons__column span{
+    margin-top: 20px;
+}
+
+.more-screen__suggestions{
+    margin-top: 45px;
+}
+
+
+.more-screen__suggestions__column:first-child{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: var(--main-border);
+    font-weight: 500;
+}
+
+.more-screen__suggestions__column:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-screen__suggestions__column__kokoa-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-screen__suggestions__column__kokoa-app img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.more-screen__suggestions__column__kokoa-app span{
+    opacity: 0.7;
+}

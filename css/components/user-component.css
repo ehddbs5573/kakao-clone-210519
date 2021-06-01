@@ -44,3 +44,16 @@
     height: 70px;
     width: 70px;
 }
+
+.fa-exclamation-circle{
+    color: tomato;
+}
+
+.more-screen__user-component{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-comment-alt{
+    opacity: 0.7;
+}

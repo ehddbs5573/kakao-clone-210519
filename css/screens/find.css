@@ -58,11 +58,9 @@
 .find-screen__open-chat__column__big-img{
     height: 75px;
     width: 85px;
-    margin-top: 5px;
-
+    border-radius: 10px;
 }
 .find-screen__open-chat__column__hashtag{
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -70,6 +68,7 @@
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .find-screen__open-chat__column__greytext{
@@ -90,14 +89,15 @@
     height: 20px;
     padding: 2px;
     color: white;
-    background-color: lightslategray;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     position: absolute;
-    bottom: 0px;
-    right: 1px;
+    bottom: 7px;
+    right: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 13px;
 }
 .find-screen__open-chat__column__big-img__space{
     position: relative;
