@@ -1,0 +1,20 @@
+.setting-screen__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 20px 0px 25px;
+    padding-top: 15px;
+}
+
+.status-bar__column__text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.setting-screen__icon-column__column:first-child{
+    display: flex;
+}
+
+.setting-screen__icon-column__column i{
+    margin-right: 30px;
+}
