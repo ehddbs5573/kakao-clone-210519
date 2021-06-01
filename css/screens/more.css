@@ -57,3 +57,23 @@
 .more-screen__suggestions__column__kokoa-app span{
     opacity: 0.7;
 }
+
+/* 토크 드라이브 아이콘에 빨간 점 만들기*/
+.more-screen__icon__notification{
+    background-color: tomato;
+    color: tomato;
+    height: 6px;
+    width: 6px;
+    font-size: 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 75px;
+    left: 55px;
+}
+
+.more-screen__icons__talk-drive{
+    position: relative;
+}

@@ -16,7 +16,6 @@
 .status-bar__column:nth-child(2){
     display: flex;
     justify-content: center;
-    
 }
 .status-bar__column:last-child{
     display: flex;
