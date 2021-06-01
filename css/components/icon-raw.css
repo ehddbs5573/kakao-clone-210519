@@ -1,0 +1,23 @@
+.icon-raw{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon-raw__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    color: rgba(0,0,0,0.8);
+}
+.icon-raw__column__text{
+    margin-top: 25px;
+}
+.icon-raw__column__text-address-book{
+    position: relative;
+    right:-6px;
+}
+.icon-raw{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,25 +1,7 @@
 .find__screen-header__icons--search{
     margin-right: 20px;
 }
-.find-screen-icons{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.find-screen-icons__column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    color: rgba(0,0,0,0.8);
-}
-.find-screen-icons__column__text{
-    margin-top: 25px;
-}
-.find-screen-icons__column__text-address-book{
-    position: relative;
-    right:-6px;
-}
+
 .find-screen__recommended-friend{
     display: flex;
     flex-direction: column;
