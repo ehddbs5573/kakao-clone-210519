@@ -1,8 +1,19 @@
+.setting-screen__icon-column{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.setting-screen__icon-column__column{
+    display: flex;
+    align-items: center;
+}
+
 .setting-screen__header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 20px 0px 25px;
+    margin: 25px 15px 0px 15px;
     padding-top: 15px;
 }
 
@@ -17,4 +28,63 @@
 
 .setting-screen__icon-column__column i{
     margin-right: 30px;
+    opacity: 0.7;
+}
+
+.setting-screen__icon-column{
+    margin-top: 40px;
+}
+
+.setting-screen__default-theme-text,
+.setting-screen__latest-version-text{
+    opacity: 0.5;
+}
+
+.setting-screen__icon__i{
+    display: block;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 10px;
+}
+
+.setting-screen__icon-column:nth-child(3){
+    border-bottom: var(--main-border);
+    padding-bottom: 40px;
+}
+
+.setting-screen__notice-text{
+    position: relative;
+    left: -5px;
+}
+
+.setting-screen__chat-text{
+    position: relative;
+    left: -3px;
+}
+
+.n-badge{
+    background-color: tomato;
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.setting-screen__display-text{
+    margin-right: 10px;
+}
+
+.setting-screen__text{
+    font-size: 20px;
 }
