@@ -1,6 +1,7 @@
 :root{
     --yellow:rgb(250,225,0);
     --pink:rgb(237,177,202);
+    --blue:rgb(171, 193, 209);
     --basic--margin: 20px;
     --main-border:1px solid rgba(0,0,0,0.2);
 }
