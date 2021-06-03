@@ -107,8 +107,66 @@
     bottom: 0;
     width: 100%
 }
+
+.chat-room__keyboard__white-chat-box{
+    background-color: white;
+}
+
+.key-btn-background-color{
+    background-color: rgb(209,212,217);
+}
 .chat-room__keyboard__column{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0px 20px;
 }
+
+.chat-room__keyboard__column:first-child{
+    padding: 10px 0;
+}
+
+.chat-room__keyboard__chtting-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.chat-room__keyboard__chtting-box__text{
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 270px;
+    margin-left: 5px;
+}
+
+.fa-smile{
+    margin-right: 20px;
+}
+
+.chat-room__keyboard__chtting-box__icon{
+    display: flex;
+    align-items: center;
+}
+
+.chat-room__keyboard__chtting-box__icon__arrow-up{
+    background-color: var(--yellow);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-room__key-btn-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+
+
+
