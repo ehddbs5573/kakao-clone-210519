@@ -1,67 +1,83 @@
 .chat-room{
     padding: 0 var(--basic--margin);
-    transform: translateY(50px);
-    opacity: 0;
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-}
-
-.chat-room:hover{
-    padding: 0 var(--basic--margin);
-    transform: translateY(0px);
-    opacity: 1;
+    position: relative;
+    bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     
 .blue-screen{
     background-color: var(--blue);
+    height: 500vh;
 }
 
 .chat-room__alt-screen__bar-icon{
-        margin-left: 25px;
+    margin-left: 25px;
+}
+
+.chat-room__status-bar{
+    z-index: 2;
+}
+.chat-room__status-bar,
+.chat-room__alt-screen{
+    background-color: var(--blue);
 }
 
 .chat-room__alt-screen{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 15px 0px 15px;
+    margin: 25px 10px 0px 0px;
     padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top:-10px;
+    z-index: 1;
 }
 
 .chat-room__alt-screen__column{
     width: 33%;
 }
 
+.chat-room__alt-screen__column:first-child{
+    margin-left: 20px;
+}
+
 .chat-room__alt-screen__column:nth-child(2){
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .chat-room__alt-screen__column:last-child{
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    margin-right: 20px;
 }
 
 .alt-screen__column__text{
     display: flex;    
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 .chat-room__alt-screen__column__text{
     font-size: 20px;
 }
 
 .chat-room__header{
+    color:white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 45px;
-    background-color: black;
-    opacity: 0.3;
-    padding: 7px 0;
-    color: rgb(255,255,255);
+    background-color: #92a4b2;
+    padding: 7px;
     border-radius: 15px;
-    margin: 45px 130px 0px 130px;
+    margin: 45px 0 0px 0;
 }
 
 .chat-room-screen__link{
@@ -202,5 +218,3 @@
 .margin-right-0{
     margin-right: -10px;
 }
-
-
