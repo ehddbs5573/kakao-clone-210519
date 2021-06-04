@@ -1,4 +1,15 @@
+.chat-room{
+    padding: 0 var(--basic--margin);
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
 
+.chat-room:hover{
+    padding: 0 var(--basic--margin);
+    transform: translateY(0px);
+    opacity: 1;
+}
     
 .blue-screen{
     background-color: var(--blue);
