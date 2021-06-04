@@ -102,6 +102,7 @@
     right:-40px;
 }
 
+
 .chat-room__keyboard{
     position: fixed;
     bottom: 0;
@@ -141,6 +142,10 @@
     margin-left: 5px;
 }
 
+.chat-room__chat-box__grey-icon{
+    opacity: 0.4;
+}
+
 .fa-smile{
     margin-right: 20px;
 }
@@ -162,11 +167,29 @@
 
 .chat-room__key-btn-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 10px 5px;
 }
 
+.chat-room__key-btn-box__second-line{
+    margin: 0px 30px;
+}
 
+.margin-left{
+    margin-left: 18px;
+}
+
+.margin-right{
+    margin-right: 18px;
+}
+
+.margin-left-0{
+    margin-left: 1px;
+}
+
+.margin-right-0{
+    margin-right: -10px;
+}
 
 
