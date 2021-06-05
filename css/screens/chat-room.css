@@ -191,29 +191,20 @@
 /*-------------------------------------*/
 /* keyboard */
 
-
-.chat-room__keyboard{
-    position: fixed;
-    bottom: 0;
-    width: 100%
-}
-
+/*
 .chat-room__keyboard__white-chat-box{
-    background-color: white;
+background-color: white;
 }
 
-.key-btn-background-color{
-    background-color: rgb(209,212,217);
-}
 .chat-room__keyboard__column{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 20px;
 }
 
 .chat-room__keyboard__column:first-child{
-    padding: 10px 0;
+padding: 10px 0;
 }
 
 .chat-room__keyboard__chtting-box{
@@ -224,12 +215,7 @@
     border-radius: 25px;
 }
 
-.chat-room__keyboard__chtting-box__text{
-    font-size: 19px;
-    font-weight: 500;
-    margin-right: 270px;
-    margin-left: 5px;
-}
+
 
 .chat-room__chat-box__grey-icon{
     opacity: 0.4;
@@ -253,6 +239,76 @@
     justify-content: center;
     align-items: center;
 }
+
+*/
+
+
+.chat-room__keyboard{
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+/* Write a message*/
+.write-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+.write-message__column:first-child{
+    width: 10%;
+}
+
+.write-message__column:last-child{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    position: relative;
+}
+
+.write-message--input{
+    width: 100%;
+    border-radius: 20px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.4);
+    padding: 5px;
+}
+
+.write-message__column:last-child .smile-icon{
+    position: absolute;
+    right: 50px;
+}
+
+.write-message__column:last-child button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    border: none;
+    background-color: var(--yellow);
+    border-radius: 15px;
+    
+}
+
+.grey-icon{
+    color: rgba(0,0,0,0.6);
+}
+
+.write-message--input::placeholder{
+    position: relative;
+    right: -10px;
+}
+
+/*-------------------------------------*/
+
+.key-btn-background-color{
+    background-color: rgb(209,212,217);
+}
+
 
 .chat-room__key-btn-box{
     display: flex;
