@@ -273,6 +273,7 @@ padding: 10px 0;
     height: 30px;
     border: 1px solid rgba(0,0,0,0.4);
     padding: 5px;
+    padding-left: 10px;
 }
 
 .write-message__column:last-child .smile-icon{
@@ -298,10 +299,6 @@ padding: 10px 0;
     color: rgba(0,0,0,0.6);
 }
 
-.write-message--input::placeholder{
-    position: relative;
-    right: -10px;
-}
 
 /*-------------------------------------*/
 
