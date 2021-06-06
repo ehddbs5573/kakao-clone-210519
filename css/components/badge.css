@@ -9,3 +9,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.animation-badge{
+    animation: animation-badge 1.5s ease-in-out infinite;
+}
+
+@keyframes animation-badge{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
