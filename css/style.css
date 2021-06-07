@@ -10,6 +10,7 @@
 @import "components/icon-raw.css";
 @import "components/alt-screen.css";
 @import "components/key-btn.css";
+@import "components/rotate-icon.css";
 
 /* Screens */
 @import "screens/login.css";

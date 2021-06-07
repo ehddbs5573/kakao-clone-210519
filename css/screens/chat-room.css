@@ -333,3 +333,38 @@ padding: 10px 0;
 .margin-right-0{
     margin-right: -10px;
 }
+
+/*animation chat*/
+.chat-room__chat__column:first-child{
+    animation: from-right-fadein-chat 1s linear forwards;
+}
+
+@keyframes from-right-fadein-chat{
+    from{
+        transform: translateX(-70px);
+        opacity: 0;
+    }
+
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.chat-room__own-chat{
+    transform: translateX(150px);
+    animation: from-left-fadein-chat 1s linear forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes from-left-fadein-chat{
+    from{
+        transform: translateX(70px);
+        opacity: 0;
+    }
+
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,35 @@
+.screen-header__icons__icon:hover{
+    animation: rotateicon 1s linear infinite;
+}
+
+@keyframes rotateicon{
+    form{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+/*heartbeat*/
+.find-screen__open-chat__column__big-img__space:hover .find-screen__open-chat__column__big-img__heart-icon{
+    will-change: transform;
+    animation: heartbeat 0.75s linear infinite;
+}
+
+@keyframes heartbeat{
+    0%{
+        color: white;
+        transform: scale(1.0);
+    }
+
+    50%{
+        color: tomato;
+        transform: scale(1.4);
+    }
+
+    100%{
+        color: white;
+        transform: scale(1.0);
+    }
+}
