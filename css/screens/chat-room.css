@@ -255,6 +255,7 @@ padding: 10px 0;
     align-items: center;
     background-color: white;
     padding: 10px 20px;
+    transition: all 0.3s ease;
 }
 .write-message__column:first-child{
     width: 10%;
@@ -276,6 +277,7 @@ padding: 10px 0;
     border: 1px solid rgba(0,0,0,0.4);
     padding: 5px;
     padding-left: 10px;
+    transition: all 0.3s ease;
 }
 
 .write-message__column:last-child .smile-icon{
@@ -393,4 +395,12 @@ padding: 10px 0;
 
 .write-message:focus-within .write-message__column:first-child{
     width: 0%;
+}
+
+.write-message:focus-within{
+    transform: translateY(80px);
+}
+
+.write-message:focus-within .write-message--input{
+    transform: translateY(-80px);
 }
