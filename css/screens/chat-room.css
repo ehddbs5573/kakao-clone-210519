@@ -258,6 +258,7 @@ padding: 10px 0;
 }
 .write-message__column:first-child{
     width: 10%;
+    transition: all .4s ease;
 }
 
 .write-message__column:last-child{
@@ -265,6 +266,7 @@ padding: 10px 0;
     align-items: center;
     width: 90%;
     position: relative;
+    transition: all .4s ease;
 }
 
 .write-message--input{
@@ -354,7 +356,7 @@ padding: 10px 0;
 .chat-room__own-chat{
     transform: translateX(150px);
     animation: from-left-fadein-chat 1s linear forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1.0s;
 }
 
 @keyframes from-left-fadein-chat{
@@ -367,4 +369,28 @@ padding: 10px 0;
         transform: none;
         opacity: 1;
     }
+}
+
+.write-message__column:first-child,
+.arrow-icon,
+.arrow-button,
+.smile-icon{
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.write-message:focus-within .write-message__column:first-child,
+.write-message:focus-within .arrow-icon,
+.write-message:focus-within .arrow-button,
+.write-message:focus-within .smile-icon{
+    opacity: 0;
+}
+
+
+.write-message:focus-within .write-message__column:last-child{
+    width: 100%;
+}
+
+.write-message:focus-within .write-message__column:first-child{
+    width: 0%;
 }
