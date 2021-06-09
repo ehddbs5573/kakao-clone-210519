@@ -11,6 +11,7 @@
 @import "components/alt-screen.css";
 @import "components/key-btn.css";
 @import "components/rotate-icon.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -37,6 +38,14 @@ body{
 
 a{
     color: black;
+}
+
+#no-mobile{
+    display: flex;
+    z-index: 4;
+    background-color: var(--yellow);
+    justify-content: center;
+    font-size: 30px;
 }
 
 

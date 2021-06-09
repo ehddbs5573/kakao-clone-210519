@@ -95,3 +95,9 @@
     animation-delay: 0.6s
 
 }
+
+@media screen and (max-width:500px) {
+    #no-mobile{
+        display: none;
+    }
+}
